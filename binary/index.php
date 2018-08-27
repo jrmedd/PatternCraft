@@ -64,7 +64,7 @@
 </div>
 <div class="section">
   <p>The following table shows the binary code for every upper and lower case letter</p>
-  <a title="Link to ASCII table" href="https://patterncraft.co/images/ascii-table.jpg"><img alt="ASCII table" src="http://patterncraft.co/images/ascii-table.jpg" /></a>
+  <a title="Link to ASCII table" href="https://patterncraft.co/images/ascii-table.jpg"><img alt="ASCII table" src="https://patterncraft.co/images/ascii-table.jpg" /></a>
 </div>
 <div class="section">
   <h2>Your Turn</h2>
