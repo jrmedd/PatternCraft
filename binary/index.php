@@ -86,7 +86,7 @@
     A Winner will be  announced at the end of April 2017. Good Luck!</p>
     <hr>
 </div-->
-<script src="http://patterncraft.co/js/jquery.min.js"></script>
+<script src="https://patterncraft.co/js/jquery.min.js"></script>
 <script>
   $('.section').each(function(index, value){
     if (index%2 == 1){
