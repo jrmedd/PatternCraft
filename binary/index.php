@@ -77,7 +77,7 @@
   </p>
 </div>
 <div class="section">
-  <p><strong><a title="Link back to PatternCraft" href="http://patterncraft.co">Return to PatternCraft.co</a></strong></p>
+  <p><strong><a title="Link back to PatternCraft" href="https://patterncraft.co">Return to PatternCraft.co</a></strong></p>
 </div>
 <!--div class="section">
   <h2>Win a PatternCraft Reader</h2>
