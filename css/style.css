@@ -1,0 +1,318 @@
+body {
+  position: relative;
+  font-family: 'Fira Mono', monospace;
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+}
+
+a {
+  color: rgba(0,150,64,1);
+}
+
+.row h3 {
+  padding-top: 70px;
+  padding-bottom: 1em;
+}
+
+.navbar {
+  opacity: 0;
+  background-color: rgba(0,0,0,0.25);
+}
+
+nav#main-nav {
+  border-bottom: 0;
+}
+
+a.navbar-brand {
+  color: #fff !important;
+}
+.navbar-default .navbar-nav > li a {
+  color: #fff;
+}
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+  color: #fff;
+  background: rgba(0,0,0,0);
+  padding-bottom: 5px;
+  border-bottom: 1px solid #fff;
+}
+
+button.navbar-toggle {
+  margin: 0;
+  border: none;
+  color: #fff !important;
+  font-size: 1.5em;
+  border-radius: 0;
+}
+
+.navbar-collapse.collapse.in, .navbar-collapse.collapsing {
+  border: 0;
+}
+
+#punches {
+  z-index: -1;
+  background-image: url('../images/punches.png');
+  height: 100%;
+  height: 100vh;
+  width: 100%;
+  position: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-animation: fadeinLogo 1.5s; /* Safari 4+ */
+  -moz-animation: fadeinLogo 1.5s; /* Fx 5+ */
+  -o-animation: fadeinLogo 1.5s; /* Opera 12+ */
+  animation:fadeinLogo 1.5s;
+}
+
+#logo {
+  background-image: url('../images/logo.png');
+  height: 100%;
+  height: 100vh;
+  width: 100%;
+  position: absolute;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#dot {
+  background-image: url('../images/dot.png');
+  height: 100%;
+  height: 100vh;
+  width: 100%;
+  position: absolute;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+#top {
+  min-height: 100vh;
+  position: relative;
+  overflow: hidden;
+}
+
+#hero {
+  min-height: 100vh;
+  position: relative;
+  overflow: hidden;
+  -webkit-animation: fadeinLogo 3.5s; /* Safari 4+ */
+  -moz-animation: fadeinLogo 3.5s; /* Fx 5+ */
+  -o-animation: fadeinLogo 3.5s; /* Opera 12+ */
+  animation:fadeinLogo 3.5s; /* IE 10+, Fx 29+ */
+}
+
+@-webkit-keyframes fadeinLogo {
+  0%   { opacity: 0; }
+  100% { opacity: 1; }
+}
+@-moz-keyframes fadeinLogo {
+  0%   { opacity: 0; }
+  100% { opacity: 1; }
+}
+@-o-keyframes fadeinLogo {
+  0%   { opacity: 0; }
+  100% { opacity: 1; }
+}
+@keyframes fadeinLogo {
+  0%   { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+#intro-stuff {
+  position: absolute;
+  bottom: 12.5%;
+  left: 0;
+  right: 0;
+  -webkit-animation: fadeinLogo 1.5s; /* Safari 4+ */
+  -moz-animation: fadeinLogo 1.5s; /* Fx 5+ */
+  -o-animation: fadeinLogo 1.5s; /* Opera 12+ */
+  animation:fadeinLogo 1.5s;
+}
+
+.icon-chevron-down {
+  font-size: 1.4em !important
+}
+
+#about {
+  color: #fff;
+  min-height: 100vh;
+  background-color: rgba(0,0,0,1);
+  background: linear-gradient(rgba(0, 150, 64, 0.6), rgba(0, 150, 64, 0.6)), url('../images/punching.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center;
+  display: flex;
+  align-items: center;
+}
+
+#about h3 {
+  font-size: 3.25em;
+}
+
+#about p {
+  font-size: 1.2em;
+  line-height: 2;
+}
+
+#about a {
+  color: #fff;
+}
+
+#creators {
+  background-color: #ffffff;
+  color: rgba(0,150,64,1);
+  display: flex;
+  align-items: center;
+}
+
+@media (min-width: 1200px) {
+  #creators {
+    padding-top: 3em;
+    padding-bottom: 2em;
+  }
+}
+
+#creators img {
+  margin: 0 auto;
+  width: 85%;
+}
+
+#creators h3 {
+  font-size: 3.25em;
+}
+
+#creators h4 {
+  font-size: 2em;
+  margin-top: .75em;
+  margin-bottom: .75em;
+}
+
+#creators p {
+  color: #737373;
+  line-height: 2;
+}
+
+#creators a {
+  color: rgba(0,150,64,1);
+}
+
+.creator-block {
+  padding-left: 1.5em;
+  padding-right: 1.5em;
+}
+
+#joint-bio {
+  margin-top: 2em;
+}
+
+#contact {
+  position: relative;
+  color: #000000;
+  background-color: #CCEAD9;
+  display: flex;
+  align-items: center;
+}
+
+#contact h3 {
+  font-size: 2.75em;
+}
+
+#contact label {
+  font-size: 1.2em;
+}
+
+#contact-form-row {
+  margin-top: 2em;
+}
+
+.form-control {
+  margin: 0 auto;
+  border: none;
+  border-radius: 10px;
+  resize: none;
+}
+
+#submit-button {
+  color: #ffffff;
+  background: rgba(0,150,64,1);
+  padding-left: 30px;
+  padding-right: 30px;
+  border-radius: 10px;
+  margin-top: .5em;
+  margin-bottom: 2em;
+}
+
+#recap-wrap {
+  margin: 0 auto;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+.g-recaptcha {
+  display: inline-block;
+}
+
+#footer {
+  position: relative;
+  background-color: #000;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+#legal {
+  text-align: center;
+  font-size: 0.75em;
+}
+
+#social {
+  text-align: center;
+}
+
+#social a {
+  color: #fff;
+  text-decoration: none;
+}
+
+#social a .fa-inverse {
+  color: #000;
+}
+
+@media (min-width: 768px) {
+  #legal {
+    line-height: 3.5em;
+    text-align: left;
+  }
+  #social {
+    text-align: right;
+  }
+}
+@media (min-width: 992px) {
+  #legal {
+    line-height: 3.5em;
+    text-align: left;
+  }
+  #social {
+    text-align: right;
+  }
+}
+@media (min-width: 1200px) {
+  #legal {
+    line-height: 3.5em;
+    text-align: left;
+  }
+  #social {
+    text-align: right;
+  }
+}
